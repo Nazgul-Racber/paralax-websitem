@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 100; */
+}
+
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* =====SAYFA1==== */
+.bg-image-1{
+    background-image: url('./img/bg.jpg');
+    opacity: 0.8;
+}
+
+.bg-container-1{
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 500px;
+    font-size: 32px;
+    /* color: white; */
+    letter-spacing: 0.5rem;
+}
+
+
+.header-title-1{
+    color: white;
+    padding: 25px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: black;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+
+}
+
+/* =====ORTAK bg-image===== */
+.bg-image-1,
+.bg-image-2,
+.bg-image-3,
+.bg-image-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =====SAYFA-2====== */
+
+.section-1{
+    background-color: rgba(128, 128, 128, 0.223);
+    color: rgba(0, 0, 0, 0.752);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+    padding: 45px 80px;
+
+}
+
