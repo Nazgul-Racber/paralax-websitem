@@ -54,6 +54,7 @@ h2{
     justify-content: center;
     align-items: center;
     opacity: 0.8;
+    min-height: 100vh;
 }
 
 .section-1{
@@ -72,14 +73,11 @@ h2{
 
 .bg-image-2{
     background-image: url('./img/bg2.jpg');
-    min-height: 100vh;
-    
 }
 
 
 .bg-container-2{
     text-align: center;
-    
 }
 
 .logo{
@@ -97,6 +95,13 @@ h2{
     padding: 45px 80px;
     line-height: 1.8rem;
 }
+
+/* =====SAYFA-3===== */
+
+.bg-image-3{
+    background-image: url('./img/bg3.jpg');
+}
+
 
 
 
